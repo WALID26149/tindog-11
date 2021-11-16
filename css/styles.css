@@ -1,0 +1,137 @@
+
+/*id select*/
+#features{
+position: relative;
+}
+#cta{
+  font-family: "Montserrat-Extra-bold 800";
+}
+/* testimonial section */
+#testimonials{
+  background-color:#0da3bb;
+}
+#press{
+background-color:#0da3bb;
+padding-bottom: 3%;
+}
+/* pricing section */
+#pricing{
+padding: 100px;
+}
+/* css */
+H1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Extra-bold 800";
+}
+body{
+  font-family: "Open Sans, sans-serif";
+  text-align: center;
+}
+p{
+  color: #8f8f8f;
+}
+/*class select*/
+.contianer-fluid{
+  padding: 7% 15% ;
+}
+/* navigation bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+#title .contianer-fluid{
+  padding: 3% 15% 15%;
+  text-align: left;
+}
+.navbar-brand{
+  font-family: "Ubuntu, sans-serif;";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+font-size:  1.2rem;
+font-family: "Montserrat-light"
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.cta-heading{
+  line-height: 1.5;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+/* Download button */
+.Download-button{
+  margin: 5% 3% 5% 0;
+}
+/* title image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position:absolute;
+  right: 30%;
+}
+  /* features section */
+  .feature-box{
+    padding: 5%;
+  }
+.icon{
+  color:#117a8b;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #17a2b8;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.big-headign{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family:"Montserrat-Extra-bold 800", sans-serif;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-text{
+font-size: 3rem;
+line-height: 1.5;
+}
+
+.section-headign{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.feature-title{
+  font-size:60px;
+}
+/* sections */
+.colored-section{
+  background-color: #33b0e6;
+  color:white;
+}
+.white-section{
+  background-color: #fff;
+}
+
+@media (max-width:981px){
+
+#title{
+  text-align: center;
+}
+
+.title-image{
+    position:static;
+    transform: rotate(0);
+  }
+}
